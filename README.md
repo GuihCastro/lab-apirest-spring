@@ -6,9 +6,6 @@ classDiagram
     class User {
         -String name
         -Account account
-        -Feature[] features
-        -Card card
-        -News[] news
     }
 
     class Account {
@@ -16,6 +13,9 @@ classDiagram
         -String number
         -float balance
         -float limit
+        -Feature[] features
+        -Card card
+        -News[] news
     }
 
     class Feature {
